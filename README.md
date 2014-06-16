@@ -7,7 +7,7 @@
 
 ### Using machine state to match a pattern 
 
-Itirate over a string of text and find a match
+Iterate over a string of text and find a match
 
 #### Credits
 
