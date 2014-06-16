@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface MSViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *regexTextView;
+@property (weak, nonatomic) IBOutlet UITextView *inputTextView;
+@property (weak, nonatomic) IBOutlet UITextView *resultsTextView;
 
+- (IBAction)actionScan:(id)sender;
 @end
