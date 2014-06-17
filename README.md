@@ -9,7 +9,7 @@
 
 Iterate over a string of text and find a match
 
-### Diagram Sofware
+### Diagram Software
 <http://dia-installer.de>
 
 #### Credits
