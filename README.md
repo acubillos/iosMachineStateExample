@@ -9,6 +9,9 @@
 
 Iterate over a string of text and find a match
 
+### Diagram Sofware
+<http://dia-installer.de>
+
 #### Credits
 
 Michael Muse
