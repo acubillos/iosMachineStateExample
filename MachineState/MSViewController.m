@@ -25,18 +25,21 @@ typedef NS_ENUM(NSInteger, InputState) {
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.resultsTextView.userInteractionEnabled = NO;
+}
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    [self.inputTextView resignFirstResponder];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 - (IBAction)actionScan:(id)sender {
     NSString *inputText = self.inputTextView.text;
-//    NSString *regex = self.regexTextView.text;
     NSMutableString *returnString = [[NSMutableString alloc] init];
     NSMutableString *currentMatch = [[NSMutableString alloc] init];
     InputState currentState = StartingState;
