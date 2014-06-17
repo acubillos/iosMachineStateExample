@@ -78,7 +78,7 @@ typedef NS_ENUM(NSInteger, InputState) {
                     currentState = ZState;
                     [currentMatch appendString:@"z"];
                     if (returnString.length > 0) {
-                        [returnString appendString:@"-"];
+                        [returnString appendString:@"\n"];
                     }
                     [returnString appendString:currentMatch];
                 }

@@ -11,7 +11,6 @@ Iterate over a string of text and find a match
 
 #### Credits
 
-Michael Muse <mmuse@rentpath.com>
+Michael Muse
   
-Andres Cubillos <acubillos@rentpath.com>.
-
+Andres Cubillos
